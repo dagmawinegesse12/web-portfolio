@@ -13,5 +13,13 @@ Welcome to my personal portfolio website, showcasing my work as a **Software Eng
 - **Deployment**: Vercel
 - **Tools**: Git, GitHub, Vite, ESLint
 
-## 📂 Project Structure
+
+## ✨ Features
+
+- 🎨 Light & Dark mode toggle
+- 🔥 Animated hero section with real-time paint-stroke background
+- 🖼️ Responsive project cards with live demo links
+- 🧠 Skills carousel with expertise levels
+- 📧 Contact form with EmailJS + success/error messages
+
 

@@ -33,9 +33,7 @@ const Education = () => {
     >
       <div className="max-w-5xl mx-auto text-center mb-16">
         <h2 className="text-4xl font-bold mb-2 text-gray-900 dark:text-white">Education</h2>
-        <p className="text-gray-500 dark:text-gray-400">
-          Like flipping through a journal of growth
-        </p>
+       
       </div>
 
       <div className="space-y-12 max-w-6xl mx-auto">

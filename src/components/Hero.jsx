@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FiArrowRight } from "react-icons/fi";
+import  herobg3 from '../assets/herobg3.png';
+import herobg3dark from '../assets/herobg3dark.png';
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -26,7 +28,7 @@ const Hero = () => {
         transition={{ duration: 1.8, ease: "easeOut" }}
       >
         <img
-          src="src/assets/herobg3.png"
+          src={herobg3}
           alt="Light hero background"
           className="w-full h-full object-cover"
         />
@@ -40,7 +42,7 @@ const Hero = () => {
         transition={{ duration: 1.8, ease: "easeOut" }}
       >
         <img
-          src="src/assets/herobg3dark.png"
+          src={herobg3dark}
           alt="Dark hero background"
           className="w-full h-full object-cover"
         />

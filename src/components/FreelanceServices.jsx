@@ -3,31 +3,33 @@ import { motion } from "framer-motion";
 import { FaLaptopCode, FaServer, FaCloud, FaMagic, FaRobot } from "react-icons/fa";
 
 const services = [
-  {
-    icon: <FaLaptopCode size={28} className="text-blue-600 dark:text-blue-400" />,
-    title: "Custom Website Design",
-    desc: "Modern, mobile-friendly designs tailored to your brand and goals.",
-  },
-  {
-    icon: <FaMagic size={28} className="text-purple-600 dark:text-purple-400" />,
-    title: "React & Tailwind Development",
-    desc: "High-performance front-end apps built with the latest stack.",
+ 
+   {
+    icon: <FaRobot size={28} className="text-rose-600 dark:text-rose-400" />,
+    title: "NLP & Research Tools",
+    desc: "Custom Natural Language Processing (NLP) pipelines and dashboards for healthcare and research.",
   },
   {
     icon: <FaServer size={28} className="text-green-600 dark:text-green-400" />,
     title: "Backend Integration",
-    desc: "Robust API and database setups using Django, Node.js, or Firebase.",
+    desc: "Robust API and database setups using Django, Node.js, MongoDB, and more.",
   },
   {
     icon: <FaCloud size={28} className="text-indigo-600 dark:text-indigo-400" />,
     title: "Cloud Deployment",
     desc: "Deploy to AWS, Render, or Vercel with CI/CD and monitoring setup.",
   },
+ 
   {
-    icon: <FaRobot size={28} className="text-rose-600 dark:text-rose-400" />,
-    title: "NLP & Research Tools",
-    desc: "Custom NLP pipelines and dashboards for healthcare and research.",
+    icon: <FaMagic size={28} className="text-purple-600 dark:text-purple-400" />,
+    title: "React & Tailwind Development",
+    desc: "High-performance front-end apps built with the latest stack.",
   },
+   {
+    icon: <FaLaptopCode size={28} className="text-blue-600 dark:text-blue-400" />,
+    title: "Custom Website Design",
+    desc: "Modern, mobile-friendly designs tailored to your brand and goals.",
+  }
 ];
 
 const FreelanceServices = () => {
@@ -42,10 +44,11 @@ const FreelanceServices = () => {
     >
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-4 text-gray-900 dark:text-white">
-          Freelance Services
+           Services
         </h2>
         <p className="text-lg text-gray-600 dark:text-gray-300 mb-12">
-          I help individuals and small teams transform ideas into scalable digital products.
+      I help individuals and organizations turn ideas into scalable, high-impact products.
+
         </p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">

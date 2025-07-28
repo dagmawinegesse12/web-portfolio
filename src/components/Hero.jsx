@@ -82,7 +82,7 @@ const Hero = () => {
             className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-blue-600 dark:border-cyan-500 shadow-lg"
           >
             <img
-              src="https://media.licdn.com/dms/image/v2/C4E03AQE5GYyfRf9Ajw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1645902913450?e=1752710400&v=beta&t=2oyjWtRRiT7TyH_zoFmQF_5ap7ARFBCH_9NeeLdr8M4"
+              src="/headshot.jpeg"
               alt="Dagmawi Negesse"
               className="object-cover w-full h-full"
             />
